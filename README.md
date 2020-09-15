@@ -18,6 +18,10 @@ You will also see any lint errors in the console.
 
 runs the cake serving backend at port 9000
 
+## GOAL
+
+The goal is to get cakes from the server and display them in a list
+
 ## Other create-react-app stuff
 
 ### `yarn test`
