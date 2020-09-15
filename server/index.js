@@ -41,7 +41,6 @@ const cakes = [
 ]
 
 app.get('/api/cakes', (req, res) => {
-  console.log('here')
   res.send(cakes)
 })
 
