@@ -22,6 +22,10 @@ runs the cake serving backend at port 9000
 
 The goal is to get cakes from the server and display them in a list
 
+you should also be able to bookmark the cakes that you like and display those in some way.
+
+the url for the cakes GET endpoint is localhost:9000/api/cakes
+
 ## Other create-react-app stuff
 
 ### `yarn test`
