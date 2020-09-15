@@ -1,21 +1,27 @@
 import React from 'react'
 import Cake from './Cake'
+import '../styles/cakes.css'
 
 export default function Cakes() {
   const [cakes, setCakes] = React.useState([])
 
   React.useEffect(() => {
-    fetch('/api/cakes')
+    fetch('http://localhost:9000/api/cakes')
       .then((data) => data.json())
       .then((cakeResponse) => setCakes(cakeResponse))
   }, [])
 
   return (
-    <div>
-      <h1>Johans konditori</h1>
+    <div className="cakes">
       {!!cakes.length &&
-        cakes.map(({ name, description, calories }) => (
-          <Cake name={name} description={description} calories={calories} />
+        cakes.map(({ id, name, description, calories }) => (
+          <Cake
+            key={id}
+            id={id}
+            name={name}
+            description={description}
+            calories={calories}
+          />
         ))}
     </div>
   )

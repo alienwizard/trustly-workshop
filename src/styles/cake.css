@@ -1,4 +1,11 @@
 .cake {
-  box-shadow: 1px 1px black;
+  box-shadow: -2px 1px 3px 0px #adadad;
   padding: 10px;
+}
+
+.cake__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
