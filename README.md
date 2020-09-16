@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 There are alot of stuff added by default by create-react-app. Dont focus on that, you can leave it be for now
 
+## You can use yarn instead of npm if you want! (facebook use yarn instead of npm internally)
+
 ## To get started
 
 First run: `npm install` in the project directory
@@ -28,12 +30,12 @@ the url for the cakes GET endpoint is localhost:9000/api/cakes
 
 ## Other create-react-app stuff
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
