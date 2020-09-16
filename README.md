@@ -6,9 +6,7 @@ There are alot of stuff added by default by create-react-app. Dont focus on that
 
 First run: `npm install` in the project directory
 
-Then you can run:
-
-### `npm start`
+Then you can run: `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -16,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### To start the serve run: `npm run start-server`
+### To start the server run: `npm run start-server`
 
 runs the cake serving backend at port 9000
 
