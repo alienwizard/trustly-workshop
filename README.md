@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 There are alot of stuff added by default by create-react-app. Dont focus on that, you can leave it be for now
 
-## You can use yarn instead of npm if you want! (facebook use yarn instead of npm internally)
+## You can use yarn instead of npm if you want! (facebook uses yarn instead of npm internally)
 
 ## To get started
 
