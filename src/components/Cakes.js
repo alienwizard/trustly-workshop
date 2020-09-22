@@ -6,7 +6,7 @@ export default function Cakes() {
   const [cakes, setCakes] = React.useState([])
 
   React.useEffect(() => {
-    fetch('http://localhost:9000/api/cakes')
+    fetch('/api/cakes')
       .then((data) => data.json())
       .then((cakeResponse) => setCakes(cakeResponse))
   }, [])

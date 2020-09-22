@@ -5,8 +5,7 @@ import './App.css'
 
 export const CakeContext = createContext()
 
-function favoritesReducer(state, action) {
-  console.log(action)
+export function favoritesReducer(state, action) {
   switch (action.type) {
     case 'add_favorite':
       return [...state, action.payload]
