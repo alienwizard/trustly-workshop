@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be able to add cake to favorite display 1`] = `
+Array [
+  <div
+    data-testid="favorite"
+  >
+    Test cake
+  </div>,
+]
+`;
+
+exports[`should be able to add cake to favorite display 2`] = `
+Array [
+  <div
+    data-testid="favorite"
+  >
+    Test cake
+  </div>,
+]
+`;
