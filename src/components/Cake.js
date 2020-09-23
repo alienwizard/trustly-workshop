@@ -14,6 +14,7 @@ export default function Cake({ name, description, calories, id }) {
         <CakeName>{name}</CakeName>
         <button
           className="cake__favorite"
+          data-testid="favoriteButton"
           onClick={() =>
             dispatch({
               type: isFavorited ? 'remove_favorite' : 'add_favorite',

@@ -5,7 +5,9 @@ export default function Favorites({ favorites }) {
     <div>
       <h2>Favorites:</h2>
       {favorites.map(({ id, name }) => (
-        <div key={id}>{name}</div>
+        <div key={id} data-testid="favorite">
+          {name}
+        </div>
       ))}
     </div>
   )
