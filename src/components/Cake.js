@@ -2,14 +2,16 @@ import React, { useContext } from 'react'
 import { CakeContext } from '../App'
 import '../styles/cake.css'
 
+const CakeName = ({ children }) => <h2>{children}</h2>
+
 export default function Cake({ name, description, calories, id }) {
   const { favorites, dispatch } = useContext(CakeContext)
   const isFavorited = favorites.find((favorite) => favorite.id === id)
 
   return (
-    <div className="cake">
+    <div className="cake" data-testid="cake">
       <div className="cake__header">
-        <h2>{name}</h2>
+        <CakeName>{name}</CakeName>
         <button
           className="cake__favorite"
           onClick={() =>
