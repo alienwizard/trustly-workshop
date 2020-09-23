@@ -13,9 +13,10 @@ function createTestProvider(dispatchSpy) {
   }
 }
 
-test('should get cakes and display them', () => {
-  const { getAllByTestId } = render(<Cakes />, {
+test('should get cakes and display them', async () => {
+  const { findAllByTestId } = render(<Cakes />, {
     wrapper: createTestProvider(),
   })
-  expect(getAllByTestId('cake').length).toEqual(1)
+  const testCakes = await findAllByTestId('cake')
+  expect(testCakes.length).toEqual(1)
 })

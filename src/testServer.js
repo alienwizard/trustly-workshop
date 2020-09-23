@@ -11,7 +11,7 @@ const cakes = [
 ]
 
 const handlers = [
-  rest.get('/api/cakes', (req, res, ctx) => {
+  rest.get('http://localhost:9000/api/cakes', (req, res, ctx) => {
     res(ctx.json(cakes))
   }),
 ]

@@ -7,7 +7,7 @@ export default function Cakes() {
 
   React.useEffect(() => {
     async function getCakes() {
-      const data = await fetch('/api/cakes')
+      const data = await fetch('http://localhost:9000/api/cakes')
       const cakes = await data.json()
       setCakes(cakes)
     }
